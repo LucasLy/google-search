@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Home Link -->
+    <header id="advancedHeader" class="site-header">
+        <a href="index.html">Google Search</a>
+        <a href="index.html">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo-small">
+        </a>
+    </header>
+    <!-- Main Content -->
+    <main id="advancedMain">
+        <h2 class="advanced-search-h2">Advanced Search</h2>
+        <hr>
+        <div class="pre-content">
+            <span>Find pages with...</span>
+            <span><b>To do this in each box.</b></span>
+        </div>
+        <form action="https://google.com/search">
+            <div class="col-wrapper">
+                <span class="pre-text">all these words:</span>
+                <input type="text" name="q" class="col-input">
+                <span class="example-text">Type the important words: tri-colour rat terrier</span>
+            </div>
+            <div class="col-wrapper">
+                <span class="pre-text">this exact word or phrase:</span>
+                <input type="text" name="as_epq" class="col-input">
+                <span class="example-text">Put exact words in quotes: "rat terrier"</span>
+            </div>
+            <div class="col-wrapper">
+                <span class="pre-text">any of these words:</span>
+                <input type="text" name="as_oq" class="col-input">
+                <span class="example-text">Type OR between all the words you want: miniature OR standard</span>
+            </div>
+            <div class="col-wrapper">
+                <span class="pre-text">none of these words</span>
+                <input type="text" name="as_eq" class="col-input">
+                <span class="example-text">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+            </div>
+            <div class="btn-wrapper">
+                <input type="submit" value="Advanced Search" class="search-btn" name="btnK">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

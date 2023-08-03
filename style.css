@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+.site-header {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    align-items: center;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+}
+
+.site-header a:hover {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 400;
+}
+
+#mainContent {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContent img {
+    width: 20%;
+    height: 20%;
+}
+
+#mainContent .search-bar {
+    margin: 20px 0px;
+    padding: 3px 10px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 30px;
+    display: flex;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#mainContent .btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#mainContent .search-btn {
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: #121212;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+}
+
+#mainContent .search-btn:hover {
+    background-color: lightgray;
+    opacity: .9;
+}
+
+.logo-small {
+    width: 100px;
+    height: auto;
+}
+
+#advancedHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#advancedMain {
+    padding: 0px 50px;
+    min-height: 75vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+
+#advancedMain .pre-content {
+    width: 975px;
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#advancedMain .pre-content span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#advancedMain .pre-content span b {
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+
+#advancedMain hr {
+    border-top: 1px solid lightgray;
+}
+
+#advancedMain .advanced-search-h2 {
+    margin: 20px 0px;
+    font-size: 20px;
+    color: red;
+    font-weight: 450;
+}
+
+#advancedMain .col-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+#advancedMain .col-wrapper .pre-text {
+    width: 250px;
+    font-size: 13px;
+}
+
+#advancedMain .col-wrapper input {
+    width: 500px;
+    height: 30px;
+    border: 1px solid lightgray;
+    padding: 0px 10px;
+}
+
+#advancedMain .col-wrapper .example-text {
+    width: 20%;
+    font-size: 13px;
+    color: gray;
+    font-weight: 350;
+    margin: 0 20px;
+}
+
+#advancedMain .btn-wrapper  {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 770px;
+    border: none;
+    color: #ffffff;
+}
+
+#advancedMain .btn-wrapper .search-btn {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: #4c8bf5;
+    color: #ffffff;
+}
